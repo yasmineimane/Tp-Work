@@ -18,7 +18,7 @@ int main()
     initialise(&lili);
 
     /* Remplissage de lili : test de ajoutEnTete et ajoutEnQueue */
-    printf("Enter the number of nodes the u want to create : ");
+    printf("Enter the number of nodes that u want to create : ");
     scanf("%d", &size);
     printf("Press 1 if u want to add in the beginning\n");
     printf("Press 2 if u want to add in the end\n");
@@ -71,7 +71,7 @@ int main()
 
     /* Recherches dans lili */
 
-    printf("Enter the data that u want searche for : ");
+    printf("Enter the data that u want search for : ");
     scanf("%d", &alea);
     r = rechercheElement(alea, &lili);
 

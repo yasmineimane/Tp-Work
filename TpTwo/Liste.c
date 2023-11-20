@@ -189,7 +189,7 @@ int rechercheElement(int e, const Liste *l)
 void insererElement(int e, Liste * l, unsigned int position)
 {
     Cellule *new, *ptr1, *ptr2;
-    int i = 0;
+    unsigned int i = 0;
 
     if (estVide(l))
         printf("Empty Liste");
@@ -223,7 +223,4 @@ void insererElement(int e, Liste * l, unsigned int position)
         ptr1->precedent = new;
         new->suivant = ptr1;
     }
-    
-
-
 }
